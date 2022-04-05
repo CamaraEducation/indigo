@@ -16,7 +16,12 @@ body, body.view-profile {
 
 .global-header {
   border-bottom: 1px solid #82bc00;
-  background: #82bc00;
+  background: #333;
+}
+
+.wrapper-footer {
+    background: #333;
+    clear: both;
 }
 
 .btn, .global-header .nav-links .secondary .btn {
