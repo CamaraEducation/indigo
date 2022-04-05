@@ -23,6 +23,12 @@ body, body.view-profile {
     background: #333;
     clear: both;
 }
+a:not(.btn) {
+  color: #82bc00
+}
+a:hover:not(.btn) {
+    color: #689600;
+}
 
 .btn, .global-header .nav-links .secondary .btn {
   border-radius: 0;
