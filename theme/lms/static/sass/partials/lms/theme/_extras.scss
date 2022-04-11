@@ -62,8 +62,15 @@ header.global-header {
     z-index: 200; // necessary to keep the header on top of other elements
     overflow: visible;  // fix for Safari
   }
-  //background-color: #4c61bf;
+  background-color: #333;
   box-shadow: none;
+}
+
+.global-header .nav-links .secondary .nav-item a.help-link{
+  color: #82bc00;
+}
+header.global-header .nav-links .main .nav-tab a {
+  color: #82bc00;
 }
 
 header.global-header .nav-links .secondary .user-image-frame {
@@ -74,6 +81,35 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
   position: fixed;
 }
 
+a:not(.btn):hover{
+  color: #689600;
+}
+header.global-header .header-logo .course-header{
+  color: #fff;
+}
+.wrapper-footer footer .site-nav .nav-item .nav-link{
+  color: #fff;
+}
+p a:not(.btn):hover{
+  color: #689600;
+}
+header.global-header .nav-links .secondary a.sign-in-btn{
+  color:#fff;
+}
+.global-header .nav-links .secondary a.sign-in-btn{
+  background-color: #333;
+}
+
+.global-header .nav-links .secondary .toggle-user-dropdown {
+  color: #82bc00;
+}
+span.username{
+  color: #82bc00;
+}
+a.help-link{
+  color: #82bc00;
+}
+
 /////////////////// Sign in form
 
 .login-register .form-field {
@@ -82,6 +118,26 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
         display: none;
     }
 }
+
+///////Camara added
+
+.login-register-content h1{
+  color: #a3eb00;
+}
+.login-register .action-primary{
+  background: #82bc00;
+}
+.login-register .action-primary:hover{
+  background: #689600;
+}
+.login-register .action-primary:focus{
+  background: #689600;
+}
+.login-register-content a:hover{
+  color: #689600;
+}
+///////Camara Added End
+
 
 /////////////////// Home page
 .home header {
@@ -126,10 +182,87 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
   }
 }
 
+
+///////Camara Added
+.home > header .title .course-search .search-button{
+  border: 2px solid #82bc00;
+  background: #82bc00;
+}
+.home > header .title .course-search .search-button:hover{
+  background: #689600;
+  border: 2px solid #689600;
+}
+.find-courses .discovery-submit{
+  border: 2px solid #82bc00;
+  background: #82bc00;
+}
+.find-courses .discovery-submit:hover{
+  background: #689600;
+  border: 2px solid #689600;
+}
+.find-courses .discovery-submit:focus {
+  background: #689600;
+}
+.courses-container .courses .course{
+  border-bottom: 3px solid #a3eb00;
+}
+
+.find-courses .discovery-input:focus {
+  box-shadow: none;
+  border-color: #689600;
+}
+.find-courses .search-facets .facet-option:hover{
+  background: #82bc00;
+}
+.find-courses .search-facets .facet-option:focus{
+  background: #82bc00;
+}
+.search-bar .search-button:hover:hover{
+  background: #689600;
+}
+.search-bar .search-button:hover{
+  background: #689600;
+}
+.find-courses .filters .clear-filters{
+  color: #82bc00
+}
+.find-courses .loading-spinner{
+  background: #689600;
+}
+.course-outline .block-tree .section .section-name{
+  color: #333;
+}
+.course-outline .block-tree .outline-button .fa {
+  color: #82bc00;
+}
+a:visited:not(.btn):hover{
+  color: #689600;
+}
+
+/////////Camara Added End
+
 ////////////////// User dashboard /dashboard
 .dashboard .main-container {
   padding: initial;
 }
+
+/////////Camara Added
+.dashboard .main-container .my-courses .course .details .wrapper-course-details .course-title a:hover{
+  color: #689600;
+}
+.dashboard .main-container .my-courses .course .details .enter-course{
+  color: #82bc00;
+  border: 1px solid #689600;
+}
+.dashboard .main-container .my-courses .course .details .enter-course:hover{
+  background-color: #82bc00;
+}
+
+input[type="submit"], input[type="button"], button, .button {
+  color: #fff;
+}
+/////////Camara Added End
+
 
 ////////////////// "View this course as staff/learner/..."
 nav.wrapper-preview-menu {
@@ -225,4 +358,8 @@ nav.wrapper-preview-menu {
           text-align: right;
       }
   }
+}
+
+.wrapper-footer footer#footer-openedx .colophon .nav-colophon li a {
+  color: #fff;
 }
